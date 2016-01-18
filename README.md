@@ -4,9 +4,13 @@ This is a web client which allows user to upload images (.jpg,.jpeg, .png, .gif)
 The features include:
 
 1) User Authentication
+
 2) Multiple image upload
+
 3) Drag and Drop Image Upload
+
 4) Gallery
+
 5) Search
 
 For demo: http://sasankmacherla.com/home.html
