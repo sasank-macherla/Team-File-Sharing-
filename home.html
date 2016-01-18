@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie Flower" />
+<script
+src="/jquery-1.11.2.js">
+</script>
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style> 
+#flip {
+    
+    width: 60%;
+    margin-top: 8%;
+    margin-right: 70%;
+    margin-left: 30%;
+    
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #BFBFBF;
+    border: solid 1px #95a5a6;
+    color: #22313F;
+    font-family: "Quicksand", sans-serif;
+
+}
+#panel{
+
+    padding: 20px;
+    width: 56%;
+    margin-right:70%;
+    margin-left:30%;
+    
+    
+    
+    text-align: center;
+    background-color: #F2F1EF;
+    border: solid 1px #95a5a6;
+    border-radius: 10px;
+    color: #2c3e50;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+
+
+
+#panel {
+    padding: 30px;
+    display: none;
+    
+}
+
+
+body {
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    background-size: 680px 660px; 
+    background-color:#003333;
+}
+#flip {
+	font-size:50px;
+}
+
+img {
+
+	position: fixed; 
+	bottom: 170px; 
+	right: 190px ;
+
+}
+
+p {
+
+	position: fixed; 
+	font-family: "Indie Flower";
+	bottom: 6px; 
+	right: 70px ; 
+	text-align: center;
+	font-size:70px;
+	color: #C8F7C5;
+
+}
+
+a:link, a:visited { 
+    color: (internal value);
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: (internal value);
+}
+
+</style>
+</head>
+<body>
+ 
+<div id="flip" ><b>Photo Smart App</b></div>
+<div id="panel"><i><b>New Users: Please<a href="register.php"> Register</a></b></i><br><br><i><b>Registered Users: Please<a href="index.php"> Login</a></b></i></br></br></div>
+
+  
+    <p>-Spartan Sockets </p>
+    <img src="spartan.jpg" alt="spartan" width="160" height="160" />
+
+</body>
+</html>
